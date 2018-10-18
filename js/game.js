@@ -22,9 +22,9 @@ function Circle(){
 
 //时钟摆臂
 var hands=[
-	{'weight':5,'kind':'hour','length':150,'color':'green'},
-	{'weight':4,'kind':'minute','length':200,'color':'blue'},
-	{'weight':2,'kind':'second','length':260,'color':'red'}
+	{'weight':5,'kind':'hour','length':75,'color':'green'},
+	{'weight':4,'kind':'minute','length':100,'color':'blue'},
+	{'weight':2,'kind':'second','length':130,'color':'red'}
 	];
 
 //摆臂的实现

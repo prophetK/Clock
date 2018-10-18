@@ -1,6 +1,87 @@
+* {
+	font-family: "微软雅黑";
+	font-size: 20px;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
 #canvas{
+	display: inline-block;
 	border: solid 3px orange;
-	margin: 10px;
+	margin: 30px 0 10px 30px;
 	padding: 10px;
 	background: lightgray;
+}
+
+/*头部设定*/
+header {
+	background-color: yellow;
+	width: 100%;
+	height: 150px;
+	top: 0;
+	left: 0;
+	text-align: left;
+	position: relative;
+}
+
+/*右上侧导航栏*/
+.navtop {
+	position: absolute;
+	right: 10px;
+	top: 50px;
+	margin: auto 5px;
+	font-size: 25px;
+}
+
+.navtop a {
+	text-decoration: none;
+}
+
+.navtop a:hover {
+	color: darkred;
+}
+
+.left {
+	width: 200px;
+	float: left;
+	background-color: lightblue;
+	position: relative;
+	display: inline-block;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	min-height: 300px;
+}
+
+.left nav ol li{
+	background: lightseagreen;
+	margin: 2px;
+	padding: 10px;
+	color: green;
+	list-style: none;
+}
+
+.left nav ol li a {
+	text-decoration: none;
+	display: block;
+	color: #174867;
+	transition: all 0.3s ease;
+}
+
+.left nav ol li a:hover{
+	background: #CBCBCB url() no-repeat;
+	padding: 20px;
+}
+
+.content {
+	margin-left: 200px;
+	background-color: wheat;
+	width: 100%-200px;
+	min-height: 300px;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	background-color: pink;
 }
